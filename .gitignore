@@ -1,0 +1,16 @@
+# Ignorar la carpeta de módulos de Node.js
+node_modules/
+
+# Ignorar archivos de resultados de tests y reports
+test-results/
+coverage/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de build (si aplica)
+dist/
