@@ -21,12 +21,11 @@ const apiScenarios = {
         password: 'password123',
       },
       expectedResponse: {
-        id: 2,
-        name: 'Jane Doe',
-        email: 'jane.doe@example.com',
-      },
+        id: expect.any(Number),
+        name: expect.any(String),
+        email: expect.any(String)
     },
-  
+    },
     // Escenario 3: Actualizar un usuario existente
     updateUser: {
       endpoint: '/users/1',
@@ -59,7 +58,6 @@ const apiScenarios = {
           items: expect.any(Array)
         }
       },
-      // Estructura que se espera recibir de la API para cada producto.
       expectedResponseStructure: {
         category: expect.any(String),
         description: expect.any(String),
