@@ -45,7 +45,7 @@ Este proyecto es un framework para pruebas de API y de base de datos (DB) utiliz
 
 3. Instala las dependencias:
    ```sh
-   npm install
+   npm install --no-save @playwright/test axios chalk dotenv pg
    ```
 
 ---
