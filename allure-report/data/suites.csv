@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Este test verifica que el endpoint público devuelve un código de estado 200.","14","Debería obtener una respuesta exitosa (código 200)","api-tests","Wed May 07 00:51:23 CLT 2025","passed","Wed May 07 00:51:23 CLT 2025","Pruebas de API para endpoint público","","",""
+"Este test verifica la presencia de datos y la correcta estructura del objeto de respuesta.","21","Debería validar que se devuelven datos y su estructura","api-tests","Wed May 07 00:51:23 CLT 2025","passed","Wed May 07 00:51:23 CLT 2025","Pruebas de API para endpoint público","","",""

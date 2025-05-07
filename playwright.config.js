@@ -10,7 +10,17 @@ module.exports = defineConfig({
   fullyParallel: false, // Deshabilitar paralelismo
   reporter: [
     ['list'], // Reportero básico en consola
-    ['html', { outputFolder: 'test-results/html' }] // Reporte HTML
+    ['html', { outputFolder: 'test-results/html' }], // Reporte HTML
+    ['allure-playwright', {
+      detail: true,
+      outputFolder: 'allure-results',
+      suiteTitle: false,
+      environmentInfo: {
+        NODE_VERSION: process.version,
+        OS: process.platform,
+        API_BASE_URL: process.env.API_BASE_URL
+      }
+    }]
   ],
   use: {
     baseURL: process.env.API_BASE_URL, // Usar variable de entorno

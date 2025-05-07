@@ -1,0 +1,3 @@
+[INFO 2025-05-07T04:35:19.093Z] ✅ Datos presentes en la respuesta y es un objeto.
+[INFO 2025-05-07T04:35:19.096Z] ✅ La estructura del objeto es correcta
+[INFO 2025-05-07T04:35:19.099Z] 📑 Objeto de la respuesta (ordenado):

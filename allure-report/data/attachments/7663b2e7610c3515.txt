@@ -1,0 +1,4 @@
+[INFO 2025-05-07T04:34:21.045Z] 🔸 Iniciando suite de pruebas de API para endpoint público
+[INFO 2025-05-07T04:34:21.340Z] ✅ Respuesta de la API recibida:
+[INFO 2025-05-07T04:34:21.355Z] 🔍 Validando código de estado...
+[INFO 2025-05-07T04:34:21.361Z] ✅ Código de estado es 200
